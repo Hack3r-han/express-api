@@ -20,7 +20,7 @@ const productsData = [
       "status": "used"
     },
     {
-      "id_product": 3,
+      "id": 3,
       "name": "Watermelon Cooler",
       "description": "Designed to keep the essence of summer always at your fingertips. This innovative fridge is not just a cooling appliance; it's a testament to convenience, ensuring that the crisp, refreshing taste of chilled watermelon is available whenever and wherever you desire.",
       "price": 20,
