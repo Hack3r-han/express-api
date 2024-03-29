@@ -3,7 +3,6 @@ const express = require('express');
 const router = express.Router();
     
 const productsData = [
-  [
     {
       "id_product": 1,
       "name": "Botas Vaqueras",
@@ -115,8 +114,7 @@ const productsData = [
       "status": "nuevo",
       "description": "El diseño es tan malo que querrás quejarte (o en ingles, whine!). Pero al menos no hay derrames.",
       "image": "https://www.yankodesign.com/images/design_news/2020/02/auto-draft/uncomfortable_designs-ds-yankodesign13.jpg"
-    }
-  ]   
+    }   
   ];
 
 router.get('/', (req, res) => {
