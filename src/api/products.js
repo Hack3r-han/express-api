@@ -126,7 +126,7 @@ router.get('/', (req, res) => {
 router.get('/:productId', (req, res) => {
   const productId = parseInt(req.params.productId);
 
-  const product = productsData.find(product => product.id === productId);
+  const product = productsData.find(product => product.id_product === productId);
 
   if (product) {
     res.json(product);
