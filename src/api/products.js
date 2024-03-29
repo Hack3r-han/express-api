@@ -3,7 +3,7 @@ const express = require('express');
 const router = express.Router();
     
 const productsData = {
-      "products":[
+    [
     {
       "id": 1,
       "name": "Cowboy Boots",
