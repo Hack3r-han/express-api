@@ -13,14 +13,6 @@ const productsData = [
     },
     {
       "id": 2,
-      "name": "Suéter de Lana",
-      "description": "Suéter de lana acogedor y elegante para mantenerte abrigado durante las temporadas frías. Esta prenda combina perfectamente comodidad y moda, convirtiéndola en un elemento imprescindible en tu guardarropa de invierno. Talla S.",
-      "price": 15,
-      "image": "https://img.freepik.com/premium-photo/sweater-isolated-white_87394-14018.jpg?w=900",
-      "status": "usado"
-    },
-    {
-      "id": 3,
       "name": "Enfriador de Sandía",
       "description": "Diseñado para mantener la esencia del verano siempre al alcance de tu mano. Este innovador refrigerador no es solo un electrodoméstico de enfriamiento; es un testimonio de conveniencia, asegurando que el sabor fresco y refrescante de la sandía fría esté disponible siempre que lo desees.",
       "price": 20,
@@ -28,15 +20,7 @@ const productsData = [
       "status": "nuevo"
     },
     {
-      "id": 4,
-      "name": "Maravilla de una Sola Hoja",
-      "description": "Presentamos nuestro revolucionario Rollo de Papel Higiénico de Absorción Cuántica: un avance sin igual en la innovación del baño. Con un poder de absorción extrema que desafía las expectativas, este rollo de papel higiénico está diseñado para redefinir tu experiencia en el baño.",
-      "price": 8,
-      "image": "https://img.freepik.com/premium-photo/rolls-white-toilet-paper-textured-background_460171-3109.jpg?w=826",
-      "status": "nuevo"
-    },
-    {
-      "id": 5,
+      "id": 3,
       "name": "Suéter de Punto",
       "description": "Suéter de punto hecho de lana merina 100% de alta calidad. Ten en cuenta que los champiñones no son comestibles. Talla M.",
       "price": 20,
@@ -44,7 +28,7 @@ const productsData = [
       "status": "usado"
     },
     {
-      "id": 6,
+      "id": 4,
       "name": "Alpargatas de Dalí",
       "description": "Una vez honradas por el propio maestro surrealista, Salvador Dalí. Más que meramente calzado, estas alpargatas ofrecen un portal único hacia los paisajes fantásticos que alimentaron la creatividad del artista. El lienzo de tu mente se convertirá en un patio de recreo de ideas surrealistas.",
       "price": 100,
@@ -52,7 +36,7 @@ const productsData = [
       "status": "nuevo"
     },
     {
-      "id": 7,
+      "id": 5,
       "name": "Paraguas Vestible",
       "description": "Diseñado para aquellos que se niegan a dejar que un repentino aguacero empañe su estilo, este accesorio revolucionario combina funcionalidad y moda.",
       "price": 10,
@@ -60,7 +44,7 @@ const productsData = [
       "status": "nuevo"
     },
     {
-      "id": 8,
+      "id": 6,
       "name": "Altavoz",
       "description": "Sumérgete en un reino de excelencia auditiva sin igual con este asombroso altavoz. Desde graves profundos y resonantes hasta los mejores agudos, experimenta una claridad de audio como nunca antes.",
       "price": 30,
@@ -68,7 +52,7 @@ const productsData = [
       "status": "usado"
     },
     {
-      "id": 9,
+      "id": 7,
       "name": "Calcetines de Confianza Frita",
       "description": "Pisa con confianza en un mundo de estilo seguro con estos calcetines. Olvídate de caminar con cautela y abraza cada paso con audacia. Fabricados para aquellos que irradian confianza, estos calcetines presumen un diseño de huevo frito.",
       "price": 8,
@@ -76,7 +60,7 @@ const productsData = [
       "status": "nuevo"
     },
     {
-      "id": 10,
+      "id": 8,
       "name": "Koh-i-Noor",
       "description": "Contempla el Diamante Koh-i-Noor, un tesoro que encarna una rica tapicería de historia, poder y belleza sin igual. Este diamante de renombre mundial tiene una historia envuelta en misterio y grandeza.",
       "price": 100000000,
@@ -84,7 +68,7 @@ const productsData = [
       "status": "nuevo"
     },
     {
-      "id": 11,
+      "id": 9,
       "name": "El Vellocino de Oro",
       "description": "Una encarnación de los rayos dorados del sol. Este brillante vellón, una vez guardado por el poderoso carnero Chrysomallos, llama a aquellos con el corazón de un héroe a embarcarse en un viaje de significado sin igual.",
       "price": 90,
@@ -92,7 +76,7 @@ const productsData = [
       "status": "usado"
     },
     {
-      "id": 12,
+      "id": 10,
       "name": "WC Fish n Flush",
       "price": 99.90,
       "status": "nuevo",
@@ -100,7 +84,7 @@ const productsData = [
       "image": "https://assets.newatlas.com/dims4/default/32dc20a/2147483647/strip/true/crop/530x647+0+0/resize/530x647!/quality/90/?url=http%3A%2F%2Fnewatlas-brightspot.s3.amazonaws.com%2Farchive%2F6076_29080652716.jpg"
     },
     {
-      "id": 13,
+      "id": 11,
       "name": "Sandía en Cubitos",
       "price": 29.99,
       "status": "nuevo",
@@ -108,11 +92,11 @@ const productsData = [
       "image": "https://cdn.thisiswhyimbroke.com/images/cubed-watermelon-mold-640x533.jpg"
     },
     {
-      "id": 14,
-      "name": "Whine Glass",
+      "id": 12,
+      "name": "'Whine' Glass",
       "price": 200,
       "status": "nuevo",
-      "description": "El diseño es tan malo que querrás quejarte (o en ingles, whine!). Pero al menos no hay derrames.",
+      "description": "El diseño es tan malo que querrás quejarte (o en inglés, whine!). Pero al menos no hay derrames.",
       "image": "https://www.yankodesign.com/images/design_news/2020/02/auto-draft/uncomfortable_designs-ds-yankodesign13.jpg"
     }   
   ];
