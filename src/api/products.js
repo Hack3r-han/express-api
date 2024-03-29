@@ -2,8 +2,7 @@ const express = require('express');
 
 const router = express.Router();
     
-const productsData = {
-    [
+const productsData = [
     {
       "id": 1,
       "name": "Cowboy Boots",
@@ -116,8 +115,7 @@ const productsData = {
       "description": "Particularly uncomfortable glass, which allows you to smell your wine better when drinking it. Difficult to wash. In very good condition.",
       "image": "https://www.yankodesign.com/images/design_news/2020/02/auto-draft/uncomfortable_designs-ds-yankodesign13.jpg"
     }
-  ]
-};
+  ];
 
 router.get('/', (req, res) => {
   res.json(productsData);
